@@ -9,8 +9,8 @@ pyplot.imshow(image,cmap="gray")
 pyplot.show()
 
 x=cv2.waitKey(0)
-if x==27:
-    print("ESC key pressed")
+if x==127:
+    print("pressed")
 elif x==ord("a"):
     print("a key pressed")
     cv2.imwrite("Cargrey.jpeg",image)
